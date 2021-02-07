@@ -6,13 +6,16 @@
     "node": "^15.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "sever": "0.0.2"
   },
   "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-sctipts start",
+    "start": "server -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   }
 }
