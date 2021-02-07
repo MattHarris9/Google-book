@@ -12,7 +12,7 @@ if(process.env.NODE_ENV === "production") {
 }
 
 
-mongoose.connect(process.env.MONGOD_URI || "mongodv://googlebooks", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGOD_URI || "mongodb://localhost/GoogleBooks", { useNewUrlParser: true });
 
 app.listen(PORT, () => {
     console.log(`🌎 ==> API server now on port ${PORT}!`);

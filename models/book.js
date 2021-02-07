@@ -10,6 +10,6 @@ const bookSchema = new Schema({
     link: { type: String }
 });
 
-const Book = mongoose.model("Book", bookSchema);
+const GoogleBooks = mongoose.model("GoogleBooks", bookSchema);
 
-module.exports = Book;
+module.exports = GoogleBooks;
