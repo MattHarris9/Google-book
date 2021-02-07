@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run script",
+    "build": "react-scripts build && mv build webapp",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
