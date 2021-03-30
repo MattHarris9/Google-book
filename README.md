@@ -10,7 +10,7 @@
 * [License](#license)
 
  ## Description: 
- This is a project management web app.  sign in and create projects.  Add tasks and descriptions to stay organized.
+ This is an application for searching and saving books, using the google books API.
  ## Installation:
  
 this is a web app go to the link here https://fierce-hollows-93289.herokuapp.com
